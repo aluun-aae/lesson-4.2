@@ -12,7 +12,14 @@ void main() {
 
   // Задание 2
 
-
+  stdout.write("ведите число");
+  dynamic num = stdin.readLineSync();
+  if(int.parse(num) % 2 == 0){
+    print("число четное");
+  }
+  else{
+    print("число нечетное");
+  };
 
   // задание 3
   List a = [1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89];
